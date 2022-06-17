@@ -1,0 +1,25 @@
+li{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+li p {
+    font-size: 1.25rem;
+}
+li button{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 1.25rem; cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #8a2b06;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 00.5rem;
+}
+
+li button:hover {
+    background-color: #5a1a01;
+    border-color: #5a1a01;
+    color: white;
+  }
